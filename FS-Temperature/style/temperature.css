@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-color: #c1e7ff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img{
+    font-size: 6rem;
+}
+.h2text{
+    font-size: 4rem;
+}
+button{
+    background-color: #5ae45a;
+    font-size: 2rem;
+    border: none;
+    padding: .5rem;
+}
+.answer{
+    background-color: hwb(0 70% 30%);
+    width: 25rem;
+    padding: 1px;
+    margin-left: 27rem;
+    margin-top: 1rem;
+}

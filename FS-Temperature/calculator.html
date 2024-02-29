@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Operation</h2>
+    <script>
+        var number1 = Number(prompt("Enter your first number"));
+        var number2 = Number(prompt("Enter your second number"));
+        var operation = prompt(
+            `Choose your operation (Write the number only)
+            1-Adition
+            2-Subtraction
+            3-Multiplication
+            4-Division`);
+            if(operation == 1){
+                document.write(`Your answer is: ${number1 + number2}`);
+            }if(operation == 2){
+                document.write(`Your answer is: ${number1 - number2}`);
+            }if(operation == 3){ 
+                document.write(`Your answer is: ${number1 * number2}`);
+            }if(operation == 4){
+                document.write(`Your answer is: ${number1 / number2}`);            
+            }else{
+                document.write("Error, try again")
+            }
+    </script>
+</body>
+</html>

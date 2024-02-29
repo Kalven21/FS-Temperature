@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ol li{
+    background-color: #dedede;
+    width: 50%;
+    padding: .5rem;
+    margin: 1rem;
+}
+.cart-btn{
+    background-color: aquamarine;
+    padding: 0%;
+    border: none;
+    font-size: 40px;
+}

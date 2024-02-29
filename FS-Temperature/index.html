@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+
+    <h2>Hello world</h2>
+    <script>
+        alert("Hello world!")
+    </script>
+    
+    <h2>Variables</h2>
+    <script>
+        var name="Kevin";//declaration and assign value
+
+        var number;//declaration var
+        number = 10;//assing value
+
+        const text ="<p style='color:blue;'> Name: " + name + "</p";
+        document.write(text);
+    </script>
+    <h2>Math operators</h2>
+    <script>
+        let num1=10;
+        let num2=5;
+        //math operators: + = - / *
+        document.write(num1 + num2);
+    </script>
+
+    <h2>Logical and relational operators</h2>
+    <script>
+        // == < > <= >= !=
+        // AND && OR || NOT ! 
+        let comparison1 = (10 == 10) && (5==6); //false
+        let comparison2 = (10 == 10) || (5==6); //true
+        document.write(comparison1);
+        document.write(comparison2);
+    </script>
+
+    <h2>Reading and writing</h2>
+    <script>
+        //let userName = prompt("Enter your name");
+        //if(userName =="Kevin"){
+        //    document.write("Welcome to the system " + userName);
+        //}else{
+        //    document.write("Invalid username");
+        //}
+    </script>
+
+    <h2>If-else statement</h2>
+    <script>
+        if(2>4){
+            document.write("Yes, its ture")
+        }else{
+            document.write("No, its not true")
+        }
+        let op = prompt("Enter an option: 1)Hello 2)Goodbye");
+        if(op=="1"){
+            console.log("Hello")
+        }
+    </script>
+
+    <h2>In-class exersice</h2>
+    <script>
+        let userName= "Kevin";
+        let email = "zamorakevin21@gmail.com";
+        let password = "JAJA";
+        let age = 20;
+        let country = "USA";
+        let salary = 1200;
+
+        document.write(userName);
+        document.write(email);
+        document.write(salary * 12);
+
+        //dument.write(`
+        //<p>Name: ${user}</p>
+        //<p>Email: ${email}</p>
+        //<p>Salary(yearly):${salary*12}</p>
+        //`);
+
+        let birthYear = 2004;
+        let futYear = 2030;
+        let futAge = futYear-birthYear;
+        document.write(`<p>I will be either ${futAge-1} or ${futAge} in ${futYear}</p>`);
+    </script> 
+
+</body>
+</html>
